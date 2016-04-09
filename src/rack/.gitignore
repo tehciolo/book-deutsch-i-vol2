@@ -1,0 +1,6 @@
+dist
+src/img
+src/video
+src/audio
+node_modules
+bower_components
