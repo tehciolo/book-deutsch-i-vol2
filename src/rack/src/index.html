@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <title>Bookrack Template</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Language" content="de">
+  <link rel="stylesheet" type="text/css" href="./css/app.css">
+</head>
+<body>
+  <div id="app" class="root" v-cloak>
+    <menu
+      :can-go-back="canGoBack"
+      :can-go-forward="canGoForward"
+      :min-page="info.minPage"
+      :max-page="info.maxPage"
+    ></menu>
+
+    <div :class="{ 'wrapper--cover': isCover, 'wrapper--duo': isDuo, 'wrapper--exercise': isExercise }" class="wrapper">
+      <router-view></router-view>
+
+      <button @click="goBack" v-show="canGoBack" class="button button--pagenav button--previous button--translateleft"><span class="wb-arrow-left"></span></button>
+      <button @click="goForward" v-show="canGoForward" class="button button--pagenav button--next button--translateright"><span class="wb-arrow-right"></span></button>
+    </div>
+
+    <audio
+      :src="'./audio/true.mp3'"
+      v-el:true
+      class="remodal__audio"
+      preload
+    ></audio>
+
+    <audio
+      :src="'./audio/false.mp3'"
+      v-el:false
+      class="remodal__audio"
+      preload
+    ></audio>
+  </div>
+
+  <script type="text/javascript" src="./js/vendor.js"></script>
+  <script type="text/javascript" src="./js/bundle.js"></script>
+</body>
+</html>

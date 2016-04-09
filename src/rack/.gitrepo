@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:tehciolo/bookrack.git
+	branch = master
+	commit = c18f4d97e0c1755a6379ddf88b274d56043724d2
+	parent = f77e993fff3aec6d41dcca8ce7b97f26e963873c
+	cmdver = 0.3.0
