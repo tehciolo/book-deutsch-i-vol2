@@ -199,6 +199,107 @@ module.exports = function() {
         }
       ]
     },
+    '12': {
+      exercise: [
+        {
+          type: 'type',
+          title: 'Titlu provizoriu (lipsa excel)',
+          image: 'pg12ex2',
+          trigger: {
+            button: {
+              top: '11%'
+            },
+            zone: {
+              top: '11%',
+              bottom: '4%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'NUMARA ANIMALELE DIN IMAGINE SI SCRIE NUMARUL IN CASUTA CORESPUNZATOARE. Cand ai terminat apasa pe cheita si verifica.'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '76.8%',
+                left: '19%',
+                width: '5.6%',
+                height: '4.5%'
+              },
+              model: '',
+              solution: '8'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '76.8%',
+                left: '37.4%',
+                width: '5.6%',
+                height: '4.5%'
+              },
+              model: '',
+              solution: '2'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '76.8%',
+                left: '55%',
+                width: '5.6%',
+                height: '4.5%'
+              },
+              model: '',
+              solution: '9'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '76.8%',
+                left: '78.8%',
+                width: '5.6%',
+                height: '4.5%'
+              },
+              model: '',
+              solution: '10'
+            },
+            {
+              identifier: 'five',
+              position: {
+                top: '83.7%',
+                left: '30.2%',
+                width: '5.6%',
+                height: '4.5%'
+              },
+              model: '',
+              solution: '7'
+            },
+            {
+              identifier: 'six',
+              position: {
+                top: '83.7%',
+                left: '48.7%',
+                width: '5.6%',
+                height: '4.5%'
+              },
+              model: '',
+              solution: '4'
+            },
+            {
+              identifier: 'seven',
+              position: {
+                top: '83.7%',
+                left: '67.8%',
+                width: '5.6%',
+                height: '4.5%'
+              },
+              model: '',
+              solution: '10'
+            }
+          ]
+        }
+      ]
+    },
     '13': {
       static: [
         {
@@ -942,6 +1043,82 @@ module.exports = function() {
             }
           }
         }
+      ],
+      exercise: [
+        {
+          type: 'typer',
+          title: 'Titlu provizoriu (lipsa excel)',
+          image: 'pg32ex2',
+          trigger: {
+            button: {
+              top: '10%'
+            },
+            zone: {
+              top: '10%',
+              bottom: '33%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'PRIVESTE CU ATENTIE IMAGINILE SI SCRIE CUVANTUL POTRIVIT. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          // audio: {
+          //   source: 'fundal1',
+          //   state: 'stopped'
+          // },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '34%',
+                left: '16%',
+                width: '13%'
+              },
+              model: '',
+              solution: 'FROH'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '26%',
+                left: '47%',
+                width: '13%'
+              },
+              model: '',
+              solution: 'ZORNIG'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '32.5%',
+                left: '72%',
+                width: '13%'
+              },
+              model: '',
+              solution: 'TRAURIG'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '57.8%',
+                left: '35%',
+                width: '13%'
+              },
+              model: '',
+              solution: 'TRAURIG'
+            },
+            {
+              identifier: 'five',
+              position: {
+                top: '58%',
+                left: '67%',
+                width: '13%'
+              },
+              model: '',
+              solution: 'FROH'
+            }
+          ]
+        }
       ]
     },
     '33': {
@@ -1064,6 +1241,124 @@ module.exports = function() {
               bottom: '6%'
             }
           }
+        }
+      ]
+    },
+    '36': {
+      exercise: [
+        {
+          type: 'typer',
+          title: 'Titlu provizoriu (lipsa excel)',
+          image: 'pg36ex2',
+          trigger: {
+            button: {
+              top: '10%'
+            },
+            zone: {
+              top: '10%',
+              bottom: '6%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'CAUTA IN CAREU CUVINTELE CORESPUNZATOARE IMAGINILOR. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          // audio: {
+          //   source: 'fundal1',
+          //   state: 'stopped'
+          // },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '14.5%',
+                left: '38%',
+                width: '8%'
+              },
+              model: '',
+              solution: 'ICH'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '14.5%',
+                left: '47%',
+                width: '9%'
+              },
+              model: '',
+              solution: 'MAG'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '17.7%',
+                left: '33%',
+                width: '16%'
+              },
+              model: '',
+              solution: 'PIZZA'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '17.7%',
+                left: '48%',
+                width: '12%'
+              },
+              model: '',
+              solution: 'SEHR'
+            },
+            {
+              identifier: 'five',
+              position: {
+                top: '77.5%',
+                left: '66%',
+                width: '25%'
+              },
+              model: '',
+              solution: 'TÜR'
+            },
+            {
+              identifier: 'six',
+              position: {
+                top: '65.7%',
+                left: '67%',
+                width: '25%'
+              },
+              model: '',
+              solution: 'PAPIERKORB'
+            },
+            {
+              identifier: 'seven',
+              position: {
+                top: '53.7%',
+                left: '67%',
+                width: '25%'
+              },
+              model: '',
+              solution: 'SCHRANK'
+            },
+            {
+              identifier: 'eight',
+              position: {
+                top: '65.7%',
+                left: '26%',
+                width: '25%'
+              },
+              model: '',
+              solution: 'STUHL'
+            },
+            {
+              identifier: 'nine',
+              position: {
+                top: '77.2%',
+                left: '26%',
+                width: '25%'
+              },
+              model: '',
+              solution: 'TAFEL'
+            }
+          ]
         }
       ]
     },
