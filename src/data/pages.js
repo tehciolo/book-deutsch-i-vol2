@@ -126,6 +126,72 @@ module.exports = function() {
             }
           }
         }
+      ],
+      exercise: [
+        {
+          type: 'type',
+          title: 'Titlu provizoriu (lipsa excel)',
+          image: 'pg08ex7',
+          trigger: {
+            button: {
+              top: '43%'
+            },
+            zone: {
+              top: '43%',
+              bottom: '4%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'NUMARATI CATE ANIMALE SUNT IN FIECARE GRUPA SI SCRIETI NUMARUL. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '47%',
+                left: '43.7%',
+                width: '5.6%',
+                height: '4.5%'
+              },
+              model: '',
+              solution: '9'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '47%',
+                left: '76.9%',
+                width: '5.6%',
+                height: '4.5%'
+              },
+              model: '',
+              solution: '7'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '67.5%',
+                left: '43.6%',
+                width: '5.6%',
+                height: '4.5%'
+              },
+              model: '',
+              solution: '10'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '67.5%',
+                left: '76.9%',
+                width: '5.6%',
+                height: '4.5%'
+              },
+              model: '',
+              solution: '8'
+            }
+          ]
+        }
       ]
     },
     '09': {
@@ -196,6 +262,95 @@ module.exports = function() {
               bottom: '31%'
             }
           }
+        }
+      ]
+    },
+    '11': {
+      exercise: [
+        {
+          type: 'picker',
+          title: 'Titlu provizoriu (lipsa excel)',
+          image: 'pg11ex1',
+          trigger: {
+            button: {
+              top: '19%'
+            },
+            zone: {
+              top: '19%',
+              bottom: '4%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'COLOREAZA IMAGINILE SI ALEGE DENUMIREA POTRIVITA. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              model: '',
+              position: {
+                top: '32.3%',
+                left: '35.5%',
+                width: '60%',
+                height: '4.5%'
+              },
+              answer: {
+                left: '57.5%'
+              }
+            },
+            {
+              identifier: 'two',
+              model: '',
+              position: {
+                top: '57%',
+                left: '-12%',
+                width: '60%',
+                height: '4.5%'
+              },
+              answer: {
+                left: '77.5%'
+              }
+            },
+            {
+              identifier: 'three',
+              model: '',
+              position: {
+                top: '57%',
+                left: '54%',
+                width: '60%',
+                height: '4.5%'
+              },
+              answer: {
+                left: '1.5%'
+              }
+            },
+            {
+              identifier: 'four',
+              model: '',
+              position: {
+                top: '81.5%',
+                left: '-12%',
+                width: '60%',
+                height: '4.5%'
+              },
+              answer: {
+                left: '77.5%'
+              }
+            },
+            {
+              identifier: 'five',
+              model: '',
+              position: {
+                top: '81.5%',
+                left: '54%',
+                width: '60%',
+                height: '4.5%'
+              },
+              answer: {
+                left: '1.5%'
+              }
+            }
+          ]
         }
       ]
     },
@@ -1805,6 +1960,82 @@ module.exports = function() {
               },
               model: '',
               solution: '9'
+            }
+          ]
+        }
+      ]
+    },
+    '50': {
+      exercise: [
+        {
+          type: 'picker',
+          title: 'Titlu provizoriu (lipsa excel)',
+          image: 'pg50ex3',
+          trigger: {
+            button: {
+              top: '8%'
+            },
+            zone: {
+              top: '8%',
+              bottom: '54%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'ALEGE FORMA CORECTA. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              model: '',
+              position: {
+                top: '34.3%',
+                left: '12.5%',
+                width: '72%',
+                height: '5.5%'
+              },
+              answer: {
+                left: '21.5%'
+              }
+            },
+            {
+              identifier: 'two',
+              model: '',
+              position: {
+                top: '42.8%',
+                left: '12.5%',
+                width: '72%',
+                height: '5.5%'
+              },
+              answer: {
+                left: '70.5%'
+              }
+            },
+            {
+              identifier: 'three',
+              model: '',
+              position: {
+                top: '51.3%',
+                left: '12.5%',
+                width: '72%',
+                height: '5.5%'
+              },
+              answer: {
+                left: '61.5%'
+              }
+            },
+            {
+              identifier: 'four',
+              model: '',
+              position: {
+                top: '59.8%',
+                left: '12.5%',
+                width: '72%',
+                height: '5.5%'
+              },
+              answer: {
+                left: '27.5%'
+              }
             }
           ]
         }
