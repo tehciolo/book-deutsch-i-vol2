@@ -1444,8 +1444,275 @@ module.exports = function() {
         }
       ]
     },
+    '49': {
+      exercise: [
+        {
+
+        },
+        {
+          type: 'type',
+          title: 'Titlu provizoriu (lipsa excel)',
+          image: 'pg49ex2',
+          trigger: {
+            button: {
+              top: '61%'
+            },
+            zone: {
+              top: '61%',
+              bottom: '2%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'SCRIE NUMARUL CORESPUNZATOR SI CALCULEAZA. SCRIE REZULTATUL. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '35%',
+                left: '77.3%',
+                width: '8%',
+                height: '5.5%'
+              },
+              model: '',
+              solution: '7'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '43%',
+                left: '77.3%',
+                width: '8%',
+                height: '5.5%'
+              },
+              model: '',
+              solution: '3'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '50.4%',
+                left: '77.3%',
+                width: '8%',
+                height: '5.5%'
+              },
+              model: '',
+              solution: '3'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '58%',
+                left: '77.3%',
+                width: '8%',
+                height: '5.5%'
+              },
+              model: '',
+              solution: '9'
+            }
+          ]
+        }
+      ]
+    },
+    '51': {
+      exercise: [
+        {
+          type: 'typer',
+          title: 'Titlu provizoriu (lipsa excel)',
+          image: 'pg51ex5',
+          trigger: {
+            button: {
+              top: '12%'
+            },
+            zone: {
+              top: '12%',
+              bottom: '49%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'SCRIE CE STIE BERT PRIVIND IMAGINEA ALATURATA. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          // audio: {
+          //   source: 'fundal1',
+          //   state: 'stopped'
+          // },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '38.5%',
+                left: '39%',
+                width: '39%'
+              },
+              model: '',
+              solution: 'SINGEN'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '46.5%',
+                left: '39%',
+                width: '39%'
+              },
+              model: '',
+              solution: 'TANZEN'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '54%',
+                left: '39%',
+                width: '39%'
+              },
+              model: '',
+              solution: 'KLATSCHEN'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '62%',
+                left: '39%',
+                width: '39%'
+              },
+              model: '',
+              solution: 'SPRINGEN'
+            }
+          ]
+        },
+        {
+          type: 'typer',
+          title: 'Titlu provizoriu (lipsa excel)',
+          image: 'pg51ex6',
+          trigger: {
+            button: {
+              top: '53%'
+            },
+            zone: {
+              top: '53%',
+              bottom: '9%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'SCRIE CUM ESTE BERT PRIVIND IMAGINEA ALATURATA. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          // audio: {
+          //   source: 'fundal1',
+          //   state: 'stopped'
+          // },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '37.3%',
+                left: '39%',
+                width: '40%'
+              },
+              model: '',
+              solution: 'FROH'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '45%',
+                left: '39%',
+                width: '40%'
+              },
+              model: '',
+              solution: 'TRAURIG'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '52.8%',
+                left: '39%',
+                width: '40%'
+              },
+              model: '',
+              solution: 'MÜDE'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '60.8%',
+                left: '39%',
+                width: '40%'
+              },
+              model: '',
+              solution: 'ZORNIG'
+            }
+          ]
+        }
+      ]
+    },
     '52': {
       exercise: [
+        {
+          type: 'typer',
+          title: 'Titlu provizoriu (lipsa excel)',
+          image: 'pg52ex7',
+          trigger: {
+            button: {
+              top: '7%'
+            },
+            zone: {
+              top: '7%',
+              bottom: '57%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'SCRIE NUMELE OBIECTULUI ILUSTRAT. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          // audio: {
+          //   source: 'fundal1',
+          //   state: 'stopped'
+          // },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '36.5%',
+                left: '22%',
+                width: '33%'
+              },
+              model: '',
+              solution: 'TISCH'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '44.5%',
+                left: '22%',
+                width: '33%'
+              },
+              model: '',
+              solution: 'STUHL'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '52.2%',
+                left: '20%',
+                width: '33%'
+              },
+              model: '',
+              solution: 'TAFEL'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '60%',
+                left: '22%',
+                width: '33%'
+              },
+              model: '',
+              solution: 'SCHRANK'
+            }
+          ]
+        },
         {
           type: 'typer',
           title: 'Titlu provizoriu (lipsa excel)',
@@ -1471,12 +1738,42 @@ module.exports = function() {
             {
               identifier: 'one',
               position: {
-                top: '26%',
-                left: '48%',
-                width: '26%'
+                top: '37%',
+                left: '28%',
+                width: '40%'
               },
               model: '',
               solution: 'SEN'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '44.7%',
+                left: '28%',
+                width: '40%'
+              },
+              model: '',
+              solution: 'SCHREIBEN'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '52.5%',
+                left: '28%',
+                width: '40%'
+              },
+              model: '',
+              solution: 'SETZEN'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '60.5%',
+                left: '28%',
+                width: '40%'
+              },
+              model: '',
+              solution: 'AUFSTEHEN'
             }
           ]
         }
