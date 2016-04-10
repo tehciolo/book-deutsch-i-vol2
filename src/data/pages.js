@@ -54,6 +54,43 @@ module.exports = function() {
       ]
     },
     '07': {
+      static: [
+        {
+          image: 'pg7ex5static1',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '58%'
+            },
+            zone: {
+              top: '58%',
+              bottom: '2%',
+              width: '55%'
+            }
+          }
+        },
+        {
+          image: 'pg7ex5static2',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '94%'
+            },
+            zone: {
+              top: '58%',
+              bottom: '2%',
+              left: '59%',
+              width: '33%'
+            }
+          }
+        }
+      ],
       video: [
         {
           video: {
@@ -126,6 +163,24 @@ module.exports = function() {
       ]
     },
     '10': {
+      static: [
+        {
+          image: 'pg10ichmag',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '69%'
+            },
+            zone: {
+              top: '69%',
+              bottom: '3%',
+            }
+          }
+        }
+      ],
       video: [
         {
           video: {
@@ -139,6 +194,110 @@ module.exports = function() {
             zone: {
               top: '6%',
               bottom: '31%'
+            }
+          }
+        }
+      ]
+    },
+    '13': {
+      static: [
+        {
+          image: 'pg13static1',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '24%'
+            },
+            zone: {
+              top: '24%',
+              bottom: '50%',
+            }
+          }
+        },
+        {
+          image: 'pg13static2',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '50%'
+            },
+            zone: {
+              top: '50%',
+              bottom: '22%',
+            }
+          }
+        },
+        {
+          image: 'pg13static3',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '78%'
+            },
+            zone: {
+              top: '78%',
+              bottom: '5%',
+            }
+          }
+        }
+      ]
+    },
+    '14': {
+      static: [
+        {
+          image: 'pg14static1',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '7%'
+            },
+            zone: {
+              top: '7%',
+              bottom: '69%',
+            }
+          }
+        },
+        {
+          image: 'pg14static2',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '39%'
+            },
+            zone: {
+              top: '39%',
+              bottom: '27%',
+            }
+          }
+        },
+        {
+          image: 'pg14static3',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '73%'
+            },
+            zone: {
+              top: '73%',
+              bottom: '3%',
             }
           }
         }
@@ -183,6 +342,24 @@ module.exports = function() {
       ]
     },
     '17': {
+      static: [
+        {
+          image: 'pg17zeichne',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '59%'
+            },
+            zone: {
+              top: '59%',
+              bottom: '4%',
+            }
+          }
+        }
+      ],
       video: [
         {
           video: {
@@ -215,6 +392,26 @@ module.exports = function() {
             zone: {
               top: '7%',
               bottom: '3%'
+            }
+          }
+        }
+      ]
+    },
+    '19': {
+      static: [
+        {
+          image: 'pg19zeichne',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '12%'
+            },
+            zone: {
+              top: '12%',
+              bottom: '6%',
             }
           }
         }
