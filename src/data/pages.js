@@ -130,7 +130,7 @@ module.exports = function() {
       exercise: [
         {
           type: 'type',
-          title: 'Titlu provizoriu (lipsa excel)',
+          title: 'ZÄHL UND SCHREIB DIE ZAHL!',
           image: 'pg08ex7',
           trigger: {
             button: {
@@ -269,7 +269,7 @@ module.exports = function() {
       exercise: [
         {
           type: 'picker',
-          title: 'Titlu provizoriu (lipsa excel)',
+          title: 'MAL AUS UND KREIS DEN NAMEN EIN!',
           image: 'pg11ex1',
           trigger: {
             button: {
@@ -358,7 +358,7 @@ module.exports = function() {
       exercise: [
         {
           type: 'type',
-          title: 'Titlu provizoriu (lipsa excel)',
+          title: 'ZÄHL DIE TIERE UND SCHREIB DIE ZAHL!',
           image: 'pg12ex2',
           trigger: {
             button: {
@@ -1202,7 +1202,7 @@ module.exports = function() {
       exercise: [
         {
           type: 'typer',
-          title: 'Titlu provizoriu (lipsa excel)',
+          title: 'ERGÄNZE!',
           image: 'pg32ex2',
           trigger: {
             button: {
@@ -1403,7 +1403,7 @@ module.exports = function() {
       exercise: [
         {
           type: 'typer',
-          title: 'Titlu provizoriu (lipsa excel)',
+          title: 'FINDE, KREIS EIN UND SCHREIB DIE WÖRTER! FINDE DIE GEHEIME NACHRICHT!',
           image: 'pg36ex2',
           trigger: {
             button: {
@@ -1901,7 +1901,7 @@ module.exports = function() {
         },
         {
           type: 'type',
-          title: 'Titlu provizoriu (lipsa excel)',
+          title: 'RECHNE!',
           image: 'pg49ex2',
           trigger: {
             button: {
@@ -1969,7 +1969,7 @@ module.exports = function() {
       exercise: [
         {
           type: 'picker',
-          title: 'Titlu provizoriu (lipsa excel)',
+          title: 'KREIS DIE RICHTIGE FORM EIN!',
           image: 'pg50ex3',
           trigger: {
             button: {
@@ -2045,7 +2045,7 @@ module.exports = function() {
       exercise: [
         {
           type: 'typer',
-          title: 'Titlu provizoriu (lipsa excel)',
+          title: 'ERGÄNZE!',
           image: 'pg51ex5',
           trigger: {
             button: {
@@ -2109,7 +2109,7 @@ module.exports = function() {
         },
         {
           type: 'typer',
-          title: 'Titlu provizoriu (lipsa excel)',
+          title: 'ERGÄNZE!',
           image: 'pg51ex6',
           trigger: {
             button: {
@@ -2177,7 +2177,7 @@ module.exports = function() {
       exercise: [
         {
           type: 'typer',
-          title: 'Titlu provizoriu (lipsa excel)',
+          title: 'ERGÄNZE!',
           image: 'pg52ex7',
           trigger: {
             button: {
@@ -2241,7 +2241,7 @@ module.exports = function() {
         },
         {
           type: 'typer',
-          title: 'Titlu provizoriu (lipsa excel)',
+          title: 'ERGÄNZE!',
           image: 'pg52ex8',
           trigger: {
             button: {
