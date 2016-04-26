@@ -4,8 +4,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p5_v1'
           },
           trigger: {
             button: {
@@ -23,8 +22,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p6_v1'
           },
           trigger: {
             button: {
@@ -38,8 +36,7 @@ module.exports = function() {
         },
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p6_v2'
           },
           trigger: {
             button: {
@@ -58,7 +55,7 @@ module.exports = function() {
         {
           image: 'pg7ex5static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -75,7 +72,7 @@ module.exports = function() {
         {
           image: 'pg7ex5static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -94,8 +91,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p7_v1'
           },
           trigger: {
             button: {
@@ -113,8 +109,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p8_v1'
           },
           trigger: {
             button: {
@@ -198,8 +193,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p9_v1'
           },
           trigger: {
             button: {
@@ -213,8 +207,7 @@ module.exports = function() {
         },
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p9_v2'
           },
           trigger: {
             button: {
@@ -233,7 +226,7 @@ module.exports = function() {
         {
           image: 'pg10ichmag',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -250,8 +243,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p10_v1'
           },
           trigger: {
             button: {
@@ -460,7 +452,7 @@ module.exports = function() {
         {
           image: 'pg13static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -476,7 +468,7 @@ module.exports = function() {
         {
           image: 'pg13static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -492,7 +484,7 @@ module.exports = function() {
         {
           image: 'pg13static3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -512,7 +504,7 @@ module.exports = function() {
         {
           image: 'pg14static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -528,7 +520,7 @@ module.exports = function() {
         {
           image: 'pg14static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -544,7 +536,7 @@ module.exports = function() {
         {
           image: 'pg14static3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -563,8 +555,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p15_v1'
           },
           trigger: {
             button: {
@@ -582,8 +573,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p16_v1'
           },
           trigger: {
             button: {
@@ -602,7 +592,7 @@ module.exports = function() {
         {
           image: 'pg17zeichne',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -619,8 +609,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p17_v1'
           },
           trigger: {
             button: {
@@ -638,8 +627,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p18_v1'
           },
           trigger: {
             button: {
@@ -658,7 +646,7 @@ module.exports = function() {
         {
           image: 'pg19zeichne',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -677,8 +665,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p20_v1'
           },
           trigger: {
             button: {
@@ -919,7 +906,7 @@ module.exports = function() {
         {
           image: 'pg22ex2static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -937,7 +924,7 @@ module.exports = function() {
         {
           image: 'pg22ex2static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -955,7 +942,7 @@ module.exports = function() {
         {
           image: 'pg22ex2static3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -973,7 +960,7 @@ module.exports = function() {
         {
           image: 'pg22ex2static4',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -991,7 +978,7 @@ module.exports = function() {
         {
           image: 'pg22ex2static5',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1009,7 +996,7 @@ module.exports = function() {
         {
           image: 'pg22ex2static6',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1031,7 +1018,7 @@ module.exports = function() {
         {
           image: 'pg23static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1047,7 +1034,7 @@ module.exports = function() {
         {
           image: 'pg23static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1063,7 +1050,7 @@ module.exports = function() {
         {
           image: 'pg23static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1079,7 +1066,7 @@ module.exports = function() {
         {
           image: 'pg23static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1095,7 +1082,7 @@ module.exports = function() {
         {
           image: 'pg23static3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1115,7 +1102,7 @@ module.exports = function() {
         {
           image: 'pg24static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1131,7 +1118,7 @@ module.exports = function() {
         {
           image: 'pg24static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1147,7 +1134,7 @@ module.exports = function() {
         {
           image: 'pg24static3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1166,8 +1153,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p25_v1'
           },
           trigger: {
             button: {
@@ -1185,8 +1171,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p26_v1'
           },
           trigger: {
             button: {
@@ -1205,7 +1190,7 @@ module.exports = function() {
         {
           image: 'pg27ex3static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1221,7 +1206,7 @@ module.exports = function() {
         {
           image: 'pg27ex3static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1240,8 +1225,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p28_v1'
           },
           trigger: {
             button: {
@@ -1260,7 +1244,7 @@ module.exports = function() {
         {
           image: 'pg29ex6static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1278,7 +1262,7 @@ module.exports = function() {
         {
           image: 'pg29ex6static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1296,7 +1280,7 @@ module.exports = function() {
         {
           image: 'pg29ex6static3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1314,7 +1298,7 @@ module.exports = function() {
         {
           image: 'pg29ex6static4',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1333,8 +1317,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p29_v1'
           },
           trigger: {
             button: {
@@ -1353,7 +1336,7 @@ module.exports = function() {
         {
           image: 'pg30ex7',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1369,7 +1352,7 @@ module.exports = function() {
         {
           image: 'pg30ichbin',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1388,8 +1371,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p31_v1'
           },
           trigger: {
             button: {
@@ -1407,8 +1389,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p32_v1'
           },
           trigger: {
             button: {
@@ -1439,10 +1420,6 @@ module.exports = function() {
             toggle: false,
             text: 'PRIVESTE CU ATENTIE IMAGINILE SI SCRIE CUVANTUL POTRIVIT. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
-          // audio: {
-          //   source: 'fundal1',
-          //   state: 'stopped'
-          // },
           data: [
             {
               identifier: 'one',
@@ -1503,7 +1480,7 @@ module.exports = function() {
         {
           image: 'pg33static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1519,7 +1496,7 @@ module.exports = function() {
         {
           image: 'pg33static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1535,7 +1512,7 @@ module.exports = function() {
         {
           image: 'pg33static3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1551,7 +1528,7 @@ module.exports = function() {
         {
           image: 'pg33static4',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1571,7 +1548,7 @@ module.exports = function() {
         {
           image: 'pg34static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1587,7 +1564,7 @@ module.exports = function() {
         {
           image: 'pg34static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1606,8 +1583,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p35_v1'
           },
           trigger: {
             button: {
@@ -1640,10 +1616,6 @@ module.exports = function() {
             toggle: false,
             text: 'CAUTA IN CAREU CUVINTELE CORESPUNZATOARE IMAGINILOR. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
-          // audio: {
-          //   source: 'fundal1',
-          //   state: 'stopped'
-          // },
           data: [
             {
               identifier: 'one',
@@ -1743,8 +1715,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p37_v1'
           },
           trigger: {
             button: {
@@ -1762,8 +1733,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p38_v1'
           },
           trigger: {
             button: {
@@ -1781,8 +1751,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p39_v1'
           },
           trigger: {
             button: {
@@ -1801,7 +1770,7 @@ module.exports = function() {
         {
           image: 'pg40ichkann',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1818,8 +1787,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p40_v1'
           },
           trigger: {
             button: {
@@ -1837,8 +1805,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p41_v1'
           },
           trigger: {
             button: {
@@ -1852,8 +1819,7 @@ module.exports = function() {
         },
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p41_v2'
           },
           trigger: {
             button: {
@@ -1871,8 +1837,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p42_v1'
           },
           trigger: {
             button: {
@@ -1891,7 +1856,7 @@ module.exports = function() {
         {
           image: 'pg43static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1907,7 +1872,7 @@ module.exports = function() {
         {
           image: 'pg43static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1923,7 +1888,7 @@ module.exports = function() {
         {
           image: 'pg43static3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1943,7 +1908,7 @@ module.exports = function() {
         {
           image: 'pg44static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1959,7 +1924,7 @@ module.exports = function() {
         {
           image: 'pg44static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1975,7 +1940,7 @@ module.exports = function() {
         {
           image: 'pg44static3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1991,7 +1956,7 @@ module.exports = function() {
         {
           image: 'pg44static4',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -2030,8 +1995,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p46_v1'
           },
           trigger: {
             button: {
@@ -2045,8 +2009,7 @@ module.exports = function() {
         },
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p46_v2'
           },
           trigger: {
             button: {
@@ -2064,8 +2027,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p47_v1'
           },
           trigger: {
             button: {
@@ -2084,7 +2046,7 @@ module.exports = function() {
         {
           image: 'pg48ex3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -2101,8 +2063,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p48_v1'
           },
           trigger: {
             button: {
@@ -2667,10 +2628,6 @@ module.exports = function() {
             toggle: false,
             text: 'SCRIE CE STIE BERT PRIVIND IMAGINEA ALATURATA. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
-          // audio: {
-          //   source: 'fundal1',
-          //   state: 'stopped'
-          // },
           data: [
             {
               identifier: 'one',
@@ -2731,10 +2688,6 @@ module.exports = function() {
             toggle: false,
             text: 'SCRIE CUM ESTE BERT PRIVIND IMAGINEA ALATURATA. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
-          // audio: {
-          //   source: 'fundal1',
-          //   state: 'stopped'
-          // },
           data: [
             {
               identifier: 'one',
@@ -2799,10 +2752,6 @@ module.exports = function() {
             toggle: false,
             text: 'SCRIE NUMELE OBIECTULUI ILUSTRAT. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
-          // audio: {
-          //   source: 'fundal1',
-          //   state: 'stopped'
-          // },
           data: [
             {
               identifier: 'one',
@@ -2863,10 +2812,6 @@ module.exports = function() {
             toggle: false,
             text: 'PRIVESTE IMAGINILE ALATURATE SI SCRIE CE POATE BERT SA FACA. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
-          // audio: {
-          //   source: 'fundal1',
-          //   state: 'stopped'
-          // },
           data: [
             {
               identifier: 'one',
