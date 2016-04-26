@@ -4,8 +4,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p5_v1'
           },
           trigger: {
             button: {
@@ -23,8 +22,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p6_v1'
           },
           trigger: {
             button: {
@@ -38,8 +36,7 @@ module.exports = function() {
         },
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p6_v2'
           },
           trigger: {
             button: {
@@ -58,7 +55,7 @@ module.exports = function() {
         {
           image: 'pg7ex5static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -75,7 +72,7 @@ module.exports = function() {
         {
           image: 'pg7ex5static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -94,8 +91,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p7_v1'
           },
           trigger: {
             button: {
@@ -113,8 +109,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p8_v1'
           },
           trigger: {
             button: {
@@ -198,8 +193,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p9_v1'
           },
           trigger: {
             button: {
@@ -213,8 +207,7 @@ module.exports = function() {
         },
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p9_v2'
           },
           trigger: {
             button: {
@@ -233,7 +226,7 @@ module.exports = function() {
         {
           image: 'pg10ichmag',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -250,8 +243,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p10_v1'
           },
           trigger: {
             button: {
@@ -460,7 +452,7 @@ module.exports = function() {
         {
           image: 'pg13static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -476,7 +468,7 @@ module.exports = function() {
         {
           image: 'pg13static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -492,7 +484,7 @@ module.exports = function() {
         {
           image: 'pg13static3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -512,7 +504,7 @@ module.exports = function() {
         {
           image: 'pg14static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -528,7 +520,7 @@ module.exports = function() {
         {
           image: 'pg14static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -544,7 +536,7 @@ module.exports = function() {
         {
           image: 'pg14static3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -563,8 +555,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p15_v1'
           },
           trigger: {
             button: {
@@ -582,8 +573,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p16_v1'
           },
           trigger: {
             button: {
@@ -602,7 +592,7 @@ module.exports = function() {
         {
           image: 'pg17zeichne',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -619,8 +609,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p17_v1'
           },
           trigger: {
             button: {
@@ -638,8 +627,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p18_v1'
           },
           trigger: {
             button: {
@@ -658,7 +646,7 @@ module.exports = function() {
         {
           image: 'pg19zeichne',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -677,8 +665,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p20_v1'
           },
           trigger: {
             button: {
@@ -692,12 +679,234 @@ module.exports = function() {
         }
       ]
     },
+    '21': {
+     exercise: [
+       {
+          type: 'linker',
+          image: '02',
+          title: 'VERBINDE!',
+          trigger: {
+            button: {
+              top: '10%'
+            },
+            zone: {
+              top: '10%',
+              bottom: '5%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'UNESTE NUMELE DIN CASETA CU PERSONAJUL CORESPUNZATOR. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'vati',
+              style: {
+                top: '7%',
+                left: '12%',
+                width: '15%',
+                height: 'auto',
+                color: '#8bcb6a'
+              },
+              image: {
+                 src: '21-vati.png'
+               },
+               sourceAnchors: ["BottomCenter"],
+               targetAnchors: []
+            },
+            {
+              identifier: 'oma',
+              style: {
+                top: '7%',
+                left: '32%',
+                width: '15%',
+                height: 'auto',
+                color: '#8bcb6a'
+              },
+              image: {
+                 src: '21-oma.png'
+               },
+               sourceAnchors: ["BottomCenter"],
+               targetAnchors: []
+            },
+            {
+              identifier: 'mutti',
+              style: {
+                top: '7%',
+                left: '52%',
+                width: '15%',
+                height: 'auto',
+                color: '#8bcb6a'
+              },
+              image: {
+                 src: '21-mutti.png'
+               },
+               sourceAnchors: ["BottomCenter"],
+               targetAnchors: []
+            },
+            {
+              identifier: 'opa',
+              style: {
+                top: '7%',
+                left: '72%',
+                width: '15%',
+                height: 'auto',
+                color: '#8bcb6a'
+              },
+              image: {
+                 src: '21-opa.png'
+               },
+               sourceAnchors: ["BottomCenter"],
+               targetAnchors: []
+            },
+            {
+               identifier: 'mutti-text',
+               style: {
+                 top: '33%',
+                 left: '12%',
+                 width: '15%',
+                 height: 'auto'
+               },
+               image: {
+                 src: '21-mutti-text.png'
+               },
+               solution: 'mutti',
+               solutionImg: {
+                 src: '21-mutti-text.png'
+               },
+               sourceAnchors: [],
+               targetAnchors: ["TopCenter"]
+             },
+             {
+                identifier: 'vati-text',
+                style: {
+                  top: '33%',
+                  left: '32%',
+                  width: '15%',
+                  height: 'auto'
+                },
+                image: {
+                  src: '21-vati-text.png'
+                },
+                solution: 'vati',
+                solutionImg: {
+                  src: '21-vati-text.png'
+                },
+                sourceAnchors: [],
+                targetAnchors: ["TopCenter"]
+              },
+              {
+                 identifier: 'oma-text',
+                 style: {
+                   top: '33%',
+                   left: '52%',
+                   width: '15%',
+                   height: 'auto'
+                 },
+                 image: {
+                   src: '21-oma-text.png'
+                 },
+                 solution: 'oma',
+                 solutionImg: {
+                   src: '21-oma-text.png'
+                 },
+                 sourceAnchors: [],
+                 targetAnchors: ["TopCenter"]
+               },
+               {
+                  identifier: 'opa-text',
+                  style: {
+                    top: '33%',
+                    left: '72%',
+                    width: '15%',
+                    height: 'auto'
+                  },
+                  image: {
+                    src: '21-opa-text.png'
+                  },
+                  solution: 'opa',
+                  solutionImg: {
+                    src: '21-opa-text.png'
+                  },
+                  sourceAnchors: [],
+                  targetAnchors: ["TopCenter"]
+                },
+                {
+                  identifier: 'bruder',
+                  style: {
+                    top: '51%',
+                    left: '25%',
+                    width: '15%',
+                    height: 'auto',
+                    color: '#8bcb6a'
+                  },
+                  image: {
+                     src: '21-bruder.png'
+                   },
+                   sourceAnchors: ["BottomCenter"],
+                   targetAnchors: []
+                },
+                {
+                  identifier: 'schwester',
+                  style: {
+                    top: '50%',
+                    left: '60%',
+                    width: '14%',
+                    height: 'auto',
+                    color: '#8bcb6a'
+                  },
+                  image: {
+                     src: '21-schwester.png'
+                   },
+                   sourceAnchors: ["BottomCenter"],
+                   targetAnchors: []
+                },
+                {
+                   identifier: 'schwester-text',
+                   style: {
+                     top: '80%',
+                     left: '25%',
+                     width: '18%',
+                     height: 'auto'
+                   },
+                   image: {
+                     src: '21-schwester-text.png'
+                   },
+                   solution: 'schwester',
+                   solutionImg: {
+                     src: '21-schwester-text.png'
+                   },
+                   sourceAnchors: [],
+                   targetAnchors: ["TopCenter"]
+                 },
+                 {
+                    identifier: 'bruder-text',
+                    style: {
+                      top: '80%',
+                      left: '60%',
+                      width: '15%',
+                      height: 'auto'
+                    },
+                    image: {
+                      src: '21-bruder-text.png'
+                    },
+                    solution: 'bruder',
+                    solutionImg: {
+                      src: '21-bruder-text.png'
+                    },
+                    sourceAnchors: [],
+                    targetAnchors: ["TopCenter"]
+                  }
+          ]
+        }
+      ]
+    },
     '22': {
       static: [
         {
           image: 'pg22ex2static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -715,7 +924,7 @@ module.exports = function() {
         {
           image: 'pg22ex2static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -733,7 +942,7 @@ module.exports = function() {
         {
           image: 'pg22ex2static3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -751,7 +960,7 @@ module.exports = function() {
         {
           image: 'pg22ex2static4',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -769,7 +978,7 @@ module.exports = function() {
         {
           image: 'pg22ex2static5',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -787,7 +996,7 @@ module.exports = function() {
         {
           image: 'pg22ex2static6',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -809,7 +1018,7 @@ module.exports = function() {
         {
           image: 'pg23static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -825,7 +1034,7 @@ module.exports = function() {
         {
           image: 'pg23static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -841,7 +1050,7 @@ module.exports = function() {
         {
           image: 'pg23static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -857,7 +1066,7 @@ module.exports = function() {
         {
           image: 'pg23static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -873,7 +1082,7 @@ module.exports = function() {
         {
           image: 'pg23static3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -893,7 +1102,7 @@ module.exports = function() {
         {
           image: 'pg24static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -909,7 +1118,7 @@ module.exports = function() {
         {
           image: 'pg24static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -925,7 +1134,7 @@ module.exports = function() {
         {
           image: 'pg24static3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -944,8 +1153,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p25_v1'
           },
           trigger: {
             button: {
@@ -963,8 +1171,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p26_v1'
           },
           trigger: {
             button: {
@@ -983,7 +1190,7 @@ module.exports = function() {
         {
           image: 'pg27ex3static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -999,7 +1206,7 @@ module.exports = function() {
         {
           image: 'pg27ex3static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1018,8 +1225,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p28_v1'
           },
           trigger: {
             button: {
@@ -1038,7 +1244,7 @@ module.exports = function() {
         {
           image: 'pg29ex6static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1056,7 +1262,7 @@ module.exports = function() {
         {
           image: 'pg29ex6static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1074,7 +1280,7 @@ module.exports = function() {
         {
           image: 'pg29ex6static3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1092,7 +1298,7 @@ module.exports = function() {
         {
           image: 'pg29ex6static4',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1111,8 +1317,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p29_v1'
           },
           trigger: {
             button: {
@@ -1131,7 +1336,7 @@ module.exports = function() {
         {
           image: 'pg30ex7',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1147,7 +1352,7 @@ module.exports = function() {
         {
           image: 'pg30ichbin',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1166,8 +1371,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p31_v1'
           },
           trigger: {
             button: {
@@ -1185,8 +1389,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p32_v1'
           },
           trigger: {
             button: {
@@ -1217,10 +1420,6 @@ module.exports = function() {
             toggle: false,
             text: 'PRIVESTE CU ATENTIE IMAGINILE SI SCRIE CUVANTUL POTRIVIT. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
-          // audio: {
-          //   source: 'fundal1',
-          //   state: 'stopped'
-          // },
           data: [
             {
               identifier: 'one',
@@ -1281,7 +1480,7 @@ module.exports = function() {
         {
           image: 'pg33static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1297,7 +1496,7 @@ module.exports = function() {
         {
           image: 'pg33static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1313,7 +1512,7 @@ module.exports = function() {
         {
           image: 'pg33static3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1329,7 +1528,7 @@ module.exports = function() {
         {
           image: 'pg33static4',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1349,7 +1548,7 @@ module.exports = function() {
         {
           image: 'pg34static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1365,7 +1564,7 @@ module.exports = function() {
         {
           image: 'pg34static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1384,8 +1583,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p35_v1'
           },
           trigger: {
             button: {
@@ -1418,10 +1616,6 @@ module.exports = function() {
             toggle: false,
             text: 'CAUTA IN CAREU CUVINTELE CORESPUNZATOARE IMAGINILOR. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
-          // audio: {
-          //   source: 'fundal1',
-          //   state: 'stopped'
-          // },
           data: [
             {
               identifier: 'one',
@@ -1521,8 +1715,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p37_v1'
           },
           trigger: {
             button: {
@@ -1540,8 +1733,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p38_v1'
           },
           trigger: {
             button: {
@@ -1559,8 +1751,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p39_v1'
           },
           trigger: {
             button: {
@@ -1579,7 +1770,7 @@ module.exports = function() {
         {
           image: 'pg40ichkann',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1596,8 +1787,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p40_v1'
           },
           trigger: {
             button: {
@@ -1615,8 +1805,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p41_v1'
           },
           trigger: {
             button: {
@@ -1630,8 +1819,7 @@ module.exports = function() {
         },
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p41_v2'
           },
           trigger: {
             button: {
@@ -1649,8 +1837,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p42_v1'
           },
           trigger: {
             button: {
@@ -1669,7 +1856,7 @@ module.exports = function() {
         {
           image: 'pg43static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1685,7 +1872,7 @@ module.exports = function() {
         {
           image: 'pg43static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1701,7 +1888,7 @@ module.exports = function() {
         {
           image: 'pg43static3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1721,7 +1908,7 @@ module.exports = function() {
         {
           image: 'pg44static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1737,7 +1924,7 @@ module.exports = function() {
         {
           image: 'pg44static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1753,7 +1940,7 @@ module.exports = function() {
         {
           image: 'pg44static3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1769,7 +1956,7 @@ module.exports = function() {
         {
           image: 'pg44static4',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1808,8 +1995,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p46_v1'
           },
           trigger: {
             button: {
@@ -1823,8 +2009,7 @@ module.exports = function() {
         },
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p46_v2'
           },
           trigger: {
             button: {
@@ -1842,8 +2027,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p47_v1'
           },
           trigger: {
             button: {
@@ -1862,7 +2046,7 @@ module.exports = function() {
         {
           image: 'pg48ex3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1879,8 +2063,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p48_v1'
           },
           trigger: {
             button: {
@@ -1897,7 +2080,174 @@ module.exports = function() {
     '49': {
       exercise: [
         {
-
+          type: 'typer',
+          image: '02',
+          title: '',
+          trigger: {
+            button: {
+              top: '26%',
+              right: '96%'
+            },
+            zone: {
+              top: '20%',
+              bottom: '42%',
+              width: '46%'
+            }
+          },
+        },
+        {
+           type: 'linker',
+           image: '02',
+           title: 'VERBINDE!',
+           trigger: {
+             button: {
+               top: '32%'
+             },
+             zone: {
+               top: '20%',
+               bottom: '42%',
+               width: '40%',
+               left: '51%'
+             }
+           },
+           help: {
+             toggle: false,
+             text: 'UNESTE CULOAREA CU IMAGINEA CORESPUNZATOARE. Cand ai terminat apasa pe cheita si verifica. Succes!'
+           },
+           data: [
+             {
+                identifier: 'pasare',
+                style: {
+                  top: '9%',
+                  left: '13%',
+                  width: '15%',
+                  height: 'auto'
+                },
+                image: {
+                  src: '49-pasare.png'
+                },
+                solution: 'blau',
+                solutionImg: {
+                  src: '49-pasare.png'
+                },
+                sourceAnchors: [],
+                targetAnchors: ["RightMiddle"]
+             },
+             {
+                identifier: 'catel',
+                style: {
+                  top: '25%',
+                  left: '13%',
+                  width: '15%',
+                  height: 'auto'
+                },
+                image: {
+                  src: '49-catel.png'
+                },
+                solution: 'braun',
+                solutionImg: {
+                  src: '49-catel.png'
+                },
+                sourceAnchors: [],
+                targetAnchors: ["RightMiddle"]
+             },
+             {
+                identifier: 'peste',
+                style: {
+                  top: '53%',
+                  left: '13%',
+                  width: '15%',
+                  height: 'auto'
+                },
+                image: {
+                  src: '49-peste.png'
+                },
+                solution: 'rot',
+                solutionImg: {
+                  src: '49-peste.png'
+                },
+                sourceAnchors: [],
+                targetAnchors: ["RightMiddle"]
+             },
+             {
+                identifier: 'pisic',
+                style: {
+                  top: '67%',
+                  left: '13%',
+                  width: '15%',
+                  height: 'auto'
+                },
+                image: {
+                  src: '49-pisic.png'
+                },
+                solution: 'orange',
+                solutionImg: {
+                  src: '49-pisic.png'
+                },
+                sourceAnchors: [],
+                targetAnchors: ["RightMiddle"]
+             },
+             {
+               identifier: 'rot',
+               style: {
+                 top: '16%',
+                 left: '65%',
+                 width: '15%',
+                 height: 'auto',
+                 color: '#ef445f'
+               },
+               image: {
+                  src: '49-rot.png'
+                },
+                sourceAnchors: ["LeftMiddle"],
+                targetAnchors: []
+             },
+             {
+               identifier: 'orange',
+               style: {
+                 top: '29%',
+                 left: '60%',
+                 width: '25%',
+                 height: 'auto',
+                 color: '#f7a04b'
+               },
+               image: {
+                  src: '49-orange.png'
+                },
+                sourceAnchors: ["LeftMiddle"],
+                targetAnchors: []
+             },
+             {
+               identifier: 'blau',
+               style: {
+                 top: '42%',
+                 left: '64%',
+                 width: '17%',
+                 height: 'auto',
+                 color: '#33bcf1'
+               },
+               image: {
+                  src: '49-blau.png'
+                },
+                sourceAnchors: ["LeftMiddle"],
+                targetAnchors: []
+             },
+             {
+               identifier: 'braun',
+               style: {
+                 top: '55%',
+                 left: '62%',
+                 width: '21%',
+                 height: 'auto',
+                 color: '#874a38'
+               },
+               image: {
+                  src: '49-braun.png'
+                },
+                sourceAnchors: ["LeftMiddle"],
+                targetAnchors: []
+             }
+           ]
         },
         {
           type: 'type',
@@ -2038,7 +2388,225 @@ module.exports = function() {
               }
             }
           ]
-        }
+        },
+        {
+           type: 'linker',
+           image: '02',
+           title: 'VERBINDE!',
+           trigger: {
+             button: {
+               top: '47%'
+             },
+             zone: {
+               top: '47%',
+               bottom: '5%',
+             }
+           },
+           help: {
+             toggle: false,
+             text: 'UNESTE CUVANTUL CU FIGURA CORESPUNZATOARE. Cand ai terminat apasa pecheita si verifica. Succes!'
+           },
+           data: [
+             {
+                identifier: 'vater',
+                style: {
+                  top: '9%',
+                  left: '13%',
+                  width: '15%',
+                  height: 'auto'
+                },
+                image: {
+                  src: '50-vater.png'
+                },
+                solution: 'der-vater',
+                solutionImg: {
+                  src: '50-vater.png'
+                },
+                sourceAnchors: [],
+                targetAnchors: ["RightMiddle"]
+             },
+             {
+                identifier: 'opa',
+                style: {
+                  top: '40%',
+                  left: '13%',
+                  width: '15%',
+                  height: 'auto'
+                },
+                image: {
+                  src: '50-opa.png'
+                },
+                solution: 'der-opa',
+                solutionImg: {
+                  src: '50-opa.png'
+                },
+                sourceAnchors: [],
+                targetAnchors: ["RightMiddle"]
+             },
+             {
+                identifier: 'mutter',
+                style: {
+                  top: '69%',
+                  left: '13%',
+                  width: '15%',
+                  height: 'auto'
+                },
+                image: {
+                  src: '50-mutter.png'
+                },
+                solution: 'der-mutter',
+                solutionImg: {
+                  src: '50-mutter.png'
+                },
+                sourceAnchors: [],
+                targetAnchors: ["RightMiddle"]
+             },
+             {
+               identifier: 'der-opa',
+               style: {
+                 top: '19%',
+                 left: '42%',
+                 width: '15%',
+                 height: 'auto',
+                 color: '#8bcb6a'
+               },
+               image: {
+                  src: '50-der-opa.png'
+                },
+                sourceAnchors: ["LeftMiddle","RightMiddle"],
+                targetAnchors: []
+             },
+             {
+               identifier: 'der-vater',
+               style: {
+                 top: '30%',
+                 left: '41.5%',
+                 width: '16%',
+                 height: 'auto',
+                 color: '#8bcb6a'
+               },
+               image: {
+                  src: '50-der-vater.png'
+                },
+                sourceAnchors: ["LeftMiddle","RightMiddle"],
+                targetAnchors: []
+             },
+             {
+               identifier: 'der-bruder',
+               style: {
+                 top: '41%',
+                 left: '41%',
+                 width: '18%',
+                 height: 'auto',
+                 color: '#8bcb6a'
+               },
+               image: {
+                  src: '50-der-bruder.png'
+                },
+                sourceAnchors: ["LeftMiddle","RightMiddle"],
+                targetAnchors: []
+             },
+             {
+               identifier: 'der-oma',
+               style: {
+                 top: '51%',
+                 left: '42%',
+                 width: '15%',
+                 height: 'auto',
+                 color: '#8bcb6a'
+               },
+               image: {
+                  src: '50-der-oma.png'
+                },
+                sourceAnchors: ["LeftMiddle","RightMiddle"],
+                targetAnchors: []
+             },
+             {
+               identifier: 'der-mutter',
+               style: {
+                 top: '62%',
+                 left: '41.5%',
+                 width: '16%',
+                 height: 'auto',
+                 color: '#8bcb6a'
+               },
+               image: {
+                  src: '50-der-mutter.png'
+                },
+                sourceAnchors: ["LeftMiddle","RightMiddle"],
+                targetAnchors: []
+             },
+             {
+               identifier: 'der-schwester',
+               style: {
+                 top: '72%',
+                 left: '40%',
+                 width: '20%',
+                 height: 'auto',
+                 color: '#8bcb6a'
+               },
+               image: {
+                  src: '50-der-schwester.png'
+                },
+                sourceAnchors: ["LeftMiddle","RightMiddle"],
+                targetAnchors: []
+             },
+             {
+                identifier: 'bruder',
+                style: {
+                  top: '9%',
+                  left: '70%',
+                  width: '15%',
+                  height: 'auto'
+                },
+                image: {
+                  src: '50-bruder.png'
+                },
+                solution: 'der-bruder',
+                solutionImg: {
+                  src: '50-bruder.png'
+                },
+                sourceAnchors: [],
+                targetAnchors: ["LeftMiddle"]
+             },
+             {
+                identifier: 'oma',
+                style: {
+                  top: '39%',
+                  left: '70%',
+                  width: '15%',
+                  height: 'auto'
+                },
+                image: {
+                  src: '50-oma.png'
+                },
+                solution: 'der-oma',
+                solutionImg: {
+                  src: '50-oma.png'
+                },
+                sourceAnchors: [],
+                targetAnchors: ["LeftMiddle"]
+             },
+             {
+                identifier: 'schwester',
+                style: {
+                  top: '65%',
+                  left: '70%',
+                  width: '15%',
+                  height: 'auto'
+                },
+                image: {
+                  src: '50-schwester.png'
+                },
+                solution: 'der-schwester',
+                solutionImg: {
+                  src: '50-schwester.png'
+                },
+                sourceAnchors: [],
+                targetAnchors: ["LeftMiddle"]
+             }
+           ]
+         }
       ]
     },
     '51': {
@@ -2060,10 +2628,6 @@ module.exports = function() {
             toggle: false,
             text: 'SCRIE CE STIE BERT PRIVIND IMAGINEA ALATURATA. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
-          // audio: {
-          //   source: 'fundal1',
-          //   state: 'stopped'
-          // },
           data: [
             {
               identifier: 'one',
@@ -2124,10 +2688,6 @@ module.exports = function() {
             toggle: false,
             text: 'SCRIE CUM ESTE BERT PRIVIND IMAGINEA ALATURATA. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
-          // audio: {
-          //   source: 'fundal1',
-          //   state: 'stopped'
-          // },
           data: [
             {
               identifier: 'one',
@@ -2192,10 +2752,6 @@ module.exports = function() {
             toggle: false,
             text: 'SCRIE NUMELE OBIECTULUI ILUSTRAT. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
-          // audio: {
-          //   source: 'fundal1',
-          //   state: 'stopped'
-          // },
           data: [
             {
               identifier: 'one',
@@ -2256,10 +2812,6 @@ module.exports = function() {
             toggle: false,
             text: 'PRIVESTE IMAGINILE ALATURATE SI SCRIE CE POATE BERT SA FACA. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
-          // audio: {
-          //   source: 'fundal1',
-          //   state: 'stopped'
-          // },
           data: [
             {
               identifier: 'one',
