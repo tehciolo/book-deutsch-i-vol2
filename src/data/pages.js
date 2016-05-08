@@ -1,5 +1,90 @@
 module.exports = function() {
   return {
+    '04': {
+      toc: [
+        {
+          route: '04-05',
+          trigger: {
+              top: '18%',
+              bottom: '77%',
+              left: '8%',
+              width: '64%'
+          }
+        },
+        {
+          route: '14-15',
+          trigger: {
+              top: '24%',
+              bottom: '72%',
+              left: '8%',
+              width: '64%'
+          }
+        },
+        {
+          route: '24-25',
+          trigger: {
+              top: '29%',
+              bottom: '66%',
+              left: '8%',
+              width: '64%'
+          }
+        },
+        {
+          route: '34-35',
+          trigger: {
+              top: '35%',
+              bottom: '60%',
+              left: '8%',
+              width: '64%'
+          }
+        },
+        {
+          route: '44-45',
+          trigger: {
+              top: '41%',
+              bottom: '54%',
+              left: '8%',
+              width: '64%'
+          }
+        },
+        {
+          route: '46-47',
+          trigger: {
+              top: '47%',
+              bottom: '48%',
+              left: '8%',
+              width: '64%'
+          }
+        },
+        {
+          route: '46-47',
+          trigger: {
+              top: '53%',
+              bottom: '42%',
+              left: '8%',
+              width: '64%'
+          }
+        },
+        {
+          route: '48-49',
+          trigger: {
+              top: '59%',
+              bottom: '36%',
+              left: '8%',
+              width: '64%'
+          }
+        },
+        {
+          route: '52-53',
+          trigger: {
+              top: '65%',
+              bottom: '30%',
+              left: '8%',
+              width: '64%'
+          }
+        }
+      ]
+    },
     '05': {
       video: [
         {
@@ -676,6 +761,55 @@ module.exports = function() {
               bottom: '16%'
             }
           }
+        }
+      ],
+      exercise: [
+        {
+          type: 'painter',
+          title: 'MAL AUS!',
+          image: 'pg20ex6',
+          trigger: {
+            button: {
+              top: '84%'
+            },
+            zone: {
+              top: '84%',
+              bottom: '4%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Coloreaza colacul folosind culorile indicate. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '35%',
+                left: '47.65%',
+                width: '30%',
+                height: '13.5%'
+              },
+              colors: [
+                'ff0000',
+                '00ff00',
+                'ee82ef',
+                'ffff00',
+                '0000ff',
+                'fea500',
+                'ffffff',
+                '000000',
+                'ffc0cb',
+                'a62a2a'
+              ],
+              easel: {
+                top: '-30%',
+                width: '100%',
+                height: '20%'
+              },
+              solution: 'pg20ex6solution'
+            }
+          ]
         }
       ]
     },

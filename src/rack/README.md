@@ -48,7 +48,7 @@ Video
 video: [
   {
     video: {
-      source: 'p5_v1'
+      source: 'test'
     },
     trigger: {
       button: {
@@ -67,7 +67,7 @@ Exercise
 ```
 exercise: [
   {
-    type: 'picker',
+    type: 'typeofexercise',
     title: 'WER SPRICHT? HÖR ZU UND KREIS EIN!',
     image: 'pg08ex5',
     trigger: {
@@ -90,6 +90,21 @@ exercise: [
     data: [
       // type / typer / picker / checker / linker / painter
     ]
+  }
+]
+```
+
+Table Of Contents
+```
+toc: [
+  {
+    route: '04-05',
+    trigger: {
+        top: '19%',
+        bottom: '76%',
+        left: '8%',
+        width: '64%'
+    }
   }
 ]
 ```
@@ -223,4 +238,3 @@ From inside src folder:
 ```
 for file in *.jpg; do convert $file -resize 1200 -quality 70 ../dist/$file; done
 ```
-

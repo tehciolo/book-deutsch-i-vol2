@@ -22,7 +22,7 @@
           v-for="item in data.video"
           v-link="{ path: '/' + id + '/video/' + $index }"
         >
-          <button :style="'top: ' + item.trigger.button.top" class="button button--scale button--animated button--trigger" type="button"><span class="wb-audio"></span></button>
+          <button :style="'top: ' + item.trigger.button.top" class="button button--scale button--animated button--trigger" type="button"><span class="wb-video"></span></button>
 
           <div
             :style="'top: ' + item.trigger.zone.top + '; right: ' + item.trigger.zone.right + '; bottom: ' + item.trigger.zone.bottom + '; left: ' + item.trigger.zone.left + '; width: ' + item.trigger.zone.width"
@@ -41,6 +41,18 @@
           <div
             :style="'top: ' + item.trigger.zone.top + '; right: ' + item.trigger.zone.right + '; bottom: ' + item.trigger.zone.bottom + '; left: ' + item.trigger.zone.left + '; width: ' + item.trigger.zone.width"
             class="{{ type }}-page__actionable"
+          ></div>
+        </a>
+      </template>
+
+      <template v-if="hasTableOfContents">
+        <a
+          v-for="item in data.toc"
+          v-link="{ path: '/' + item.route }"
+        >
+          <div
+            :style="'top: ' + item.trigger.top + '; right: ' + item.trigger.right + '; bottom: ' + item.trigger.bottom + '; left: ' + item.trigger.left + '; width: ' + item.trigger.width"
+            class="left-page__actionable"
           ></div>
         </a>
       </template>
@@ -68,6 +80,12 @@
       hasExercise: function() {
         if (this.data !== undefined) {
           if ('exercise' in this.data) {return true}
+        }
+        return false
+      },
+      hasTableOfContents: function() {
+        if (this.data !== undefined) {
+          if ('toc' in this.data) {return true}
         }
         return false
       }
