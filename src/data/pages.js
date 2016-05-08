@@ -762,6 +762,55 @@ module.exports = function() {
             }
           }
         }
+      ],
+      exercise: [
+        {
+          type: 'painter',
+          title: 'MAL AUS!',
+          image: 'pg20ex6',
+          trigger: {
+            button: {
+              top: '84%'
+            },
+            zone: {
+              top: '84%',
+              bottom: '4%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Coloreaza colacul folosind culorile indicate. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '35%',
+                left: '47.65%',
+                width: '30%',
+                height: '13.5%'
+              },
+              colors: [
+                'ff0000',
+                '00ff00',
+                'ee82ef',
+                'ffff00',
+                '0000ff',
+                'fea500',
+                'ffffff',
+                '000000',
+                'ffc0cb',
+                'a62a2a'
+              ],
+              easel: {
+                top: '-30%',
+                width: '100%',
+                height: '20%'
+              },
+              solution: 'pg20ex6solution'
+            }
+          ]
+        }
       ]
     },
     '21': {
