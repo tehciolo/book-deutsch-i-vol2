@@ -77,7 +77,7 @@ module.exports = function() {
           },
           trigger: {
             button: {
-              top: '94%'
+              top: '74%'
             },
             zone: {
               top: '58%',
@@ -274,7 +274,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'COLOREAZA IMAGINILE SI ALEGE DENUMIREA POTRIVITA. Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'ALEGE DENUMIREA POTRIVITA. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -696,7 +696,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'UNESTE NUMELE DIN CASETA CU PERSONAJUL CORESPUNZATOR. Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'UNESTE PERSONAJUL CU NUMELE DIN CASETA CORESPUNZATOR. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -1028,38 +1028,6 @@ module.exports = function() {
             zone: {
               top: '19%',
               bottom: '61%'
-            }
-          }
-        },
-        {
-          image: 'pg23static1',
-          audio: {
-            source: 'fundal',
-            state: 'stopped'
-          },
-          trigger: {
-            button: {
-              top: '61%'
-            },
-            zone: {
-              top: '61%',
-              bottom: '32%'
-            }
-          }
-        },
-        {
-          image: 'pg23static1',
-          audio: {
-            source: 'fundal',
-            state: 'stopped'
-          },
-          trigger: {
-            button: {
-              top: '90%'
-            },
-            zone: {
-              top: '90%',
-              bottom: '4%'
             }
           }
         },
@@ -1562,7 +1530,7 @@ module.exports = function() {
           }
         },
         {
-          image: 'pg34static1',
+          image: 'pg34static2',
           audio: {
             source: 'fundal',
             state: 'stopped'
@@ -1614,7 +1582,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'CAUTA IN CAREU CUVINTELE CORESPUNZATOARE IMAGINILOR. Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'CAUTA IN CAREU CUVINTELE CORESPUNZATOARE IMAGINILOR SI COMPLETEAZA-LE IN DREPTUL IMAGINILOR. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -2081,8 +2049,8 @@ module.exports = function() {
       exercise: [
         {
           type: 'typer',
-          image: '02',
-          title: '',
+          image: 'pg49ex1',
+          title: 'ERGÄNZE!',
           trigger: {
             button: {
               top: '26%',
@@ -2094,6 +2062,52 @@ module.exports = function() {
               width: '46%'
             }
           },
+          help: {
+            toggle: false,
+            text: 'COMPLETEAZA FOLOSIND CUVINTELE CORESPUNZATOARE IMAGINILOR. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '34.5%',
+                left: '42%',
+                width: '26%'
+              },
+              model: '',
+              solution: 'VOGEL'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '42.5%',
+                left: '42%',
+                width: '26%'
+              },
+              model: '',
+              solution: 'HUND'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '50.3%',
+                left: '42%',
+                width: '26%'
+              },
+              model: '',
+              solution: 'FISCH'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '58.1%',
+                left: '41.5%',
+                width: '26%'
+              },
+              model: '',
+              solution: 'KATZE'
+            }
+          ]
         },
         {
            type: 'linker',
@@ -2264,7 +2278,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'SCRIE NUMARUL CORESPUNZATOR SI CALCULEAZA. SCRIE REZULTATUL. Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'NUMARA, CALCULEAZA SI SCRIE REZULTATUL. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
