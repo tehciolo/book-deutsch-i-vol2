@@ -372,7 +372,8 @@ module.exports = function() {
                 height: '4.5%'
               },
               answer: {
-                left: '57.5%'
+                left: '57.5%',
+                width: '15%'
               }
             },
             {
@@ -385,7 +386,8 @@ module.exports = function() {
                 height: '4.5%'
               },
               answer: {
-                left: '77.5%'
+                left: '70.5%',
+                width: '27%'
               }
             },
             {
@@ -398,7 +400,8 @@ module.exports = function() {
                 height: '4.5%'
               },
               answer: {
-                left: '1.5%'
+                left: '1.5%',
+                width: '15%'
               }
             },
             {
@@ -411,7 +414,8 @@ module.exports = function() {
                 height: '4.5%'
               },
               answer: {
-                left: '77.5%'
+                left: '77.5%',
+                width: '15%'
               }
             },
             {
@@ -424,7 +428,8 @@ module.exports = function() {
                 height: '4.5%'
               },
               answer: {
-                left: '1.5%'
+                left: '1.5%',
+                width: '15%'
               }
             }
           ]
@@ -2493,7 +2498,8 @@ module.exports = function() {
                 height: '5.5%'
               },
               answer: {
-                left: '21.5%'
+                left: '8.5%',
+                width: '41%'
               }
             },
             {
@@ -2506,7 +2512,8 @@ module.exports = function() {
                 height: '5.5%'
               },
               answer: {
-                left: '70.5%'
+                left: '52.5%',
+                width: '50%'
               }
             },
             {
@@ -2519,7 +2526,8 @@ module.exports = function() {
                 height: '5.5%'
               },
               answer: {
-                left: '61.5%'
+                left: '51.5%',
+                width: '35%'
               }
             },
             {
@@ -2532,7 +2540,8 @@ module.exports = function() {
                 height: '5.5%'
               },
               answer: {
-                left: '27.5%'
+                left: '23.5%',
+                width: '23%'
               }
             }
           ]
