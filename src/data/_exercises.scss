@@ -26,7 +26,7 @@
     font-size: 1.5rem;
   }
 
-  &--49-1 {
+  &--49-2 {
     width: 100%;
     height: 100%;
     transform: rotate(16deg);
@@ -61,4 +61,13 @@
 
 .page20 .foil {
   background-color: transparent !important;
+}
+
+.page20 .foil .button--reversed {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+.page20 .foil .solve[_v-7d2ddc14],
+.page20 .foil .reset[_v-7d2ddc14] {
+  color: #ffffff ;
 }

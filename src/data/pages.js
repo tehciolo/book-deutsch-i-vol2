@@ -784,7 +784,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Coloreaza colacul folosind culorile indicate. Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'COLOREAZA COLACUL FOLOSIND CULOARILE INDICATE. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
