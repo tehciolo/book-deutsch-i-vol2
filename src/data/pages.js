@@ -835,7 +835,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'UNESTE PERSONAJUL CU NUMELE DIN CASETA CORESPUNZATOR. Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'UNESTE CUVANTUL CU IMAGINEA CORESPUNZATOARE. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
