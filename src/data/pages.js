@@ -223,7 +223,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'NUMARATI CATE ANIMALE SUNT IN FIECARE GRUPA SI SCRIETI NUMARUL. Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'NUMARA CATE ANIMALE SUNT IN FIECARE GRUPA SI SCRIE NUMARUL. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -2978,7 +2978,7 @@ module.exports = function() {
                 width: '40%'
               },
               model: '',
-              solution: 'SEN'
+              solution: 'LESEN'
             },
             {
               identifier: 'two',
