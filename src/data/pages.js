@@ -374,6 +374,16 @@ module.exports = function() {
               answer: {
                 left: '57.5%',
                 width: '15%'
+              },
+              validation: {
+                shown: false,
+                pre: 'pg11ex1dovepre',
+                post: 'pg11ex1dovepost',
+                position: {
+                  top: '20%',
+                  left: '62%',
+                  width: '12%'
+                }
               }
             },
             {
@@ -388,6 +398,16 @@ module.exports = function() {
               answer: {
                 left: '70.5%',
                 width: '27%'
+              },
+              validation: {
+                shown: false,
+                pre: 'pg11ex1turtlepre',
+                post: 'pg11ex1turtlepost',
+                position: {
+                  top: '44%',
+                  left: '24%',
+                  width: '18%'
+                }
               }
             },
             {
@@ -402,6 +422,16 @@ module.exports = function() {
               answer: {
                 left: '1.5%',
                 width: '15%'
+              },
+              validation: {
+                shown: false,
+                pre: 'pg11ex1mousepre',
+                post: 'pg11ex1mousepost',
+                position: {
+                  top: '43.5%',
+                  left: '60%',
+                  width: '16%'
+                }
               }
             },
             {
@@ -416,6 +446,16 @@ module.exports = function() {
               answer: {
                 left: '77.5%',
                 width: '15%'
+              },
+              validation: {
+                shown: false,
+                pre: 'pg11ex1dogpre',
+                post: 'pg11ex1dogpost',
+                position: {
+                  top: '67%',
+                  left: '28%',
+                  width: '10%'
+                }
               }
             },
             {
@@ -430,6 +470,16 @@ module.exports = function() {
               answer: {
                 left: '1.5%',
                 width: '15%'
+              },
+              validation: {
+                shown: false,
+                pre: 'pg11ex1fishpre',
+                post: 'pg11ex1fishpost',
+                position: {
+                  top: '70%',
+                  left: '60%',
+                  width: '15%'
+                }
               }
             }
           ]
@@ -465,7 +515,17 @@ module.exports = function() {
                 height: '4.5%'
               },
               model: '',
-              solution: '8'
+              solution: '8',
+              validation: {
+                shown: false,
+                pre: 'pg12ex2mousepre',
+                post: 'pg12ex2mousepost',
+                position: {
+                  top: '12%',
+                  left: '9%',
+                  width: '81%'
+                }
+              }
             },
             {
               identifier: 'two',
@@ -476,7 +536,17 @@ module.exports = function() {
                 height: '4.5%'
               },
               model: '',
-              solution: '2'
+              solution: '2',
+              validation: {
+                shown: false,
+                pre: 'pg12ex2catpre',
+                post: 'pg12ex2catpost',
+                position: {
+                  top: '12%',
+                  left: '9%',
+                  width: '81%'
+                }
+              }
             },
             {
               identifier: 'three',
@@ -487,7 +557,17 @@ module.exports = function() {
                 height: '4.5%'
               },
               model: '',
-              solution: '9'
+              solution: '9',
+              validation: {
+                shown: false,
+                pre: 'pg12ex2fishpre',
+                post: 'pg12ex2fishpost',
+                position: {
+                  top: '12%',
+                  left: '9%',
+                  width: '81%'
+                }
+              }
             },
             {
               identifier: 'four',
@@ -498,7 +578,17 @@ module.exports = function() {
                 height: '4.5%'
               },
               model: '',
-              solution: '10'
+              solution: '1',
+              validation: {
+                shown: false,
+                pre: 'pg12ex2rabbitpre',
+                post: 'pg12ex2rabbitpost',
+                position: {
+                  top: '12%',
+                  left: '9%',
+                  width: '81%'
+                }
+              }
             },
             {
               identifier: 'five',
@@ -509,7 +599,17 @@ module.exports = function() {
                 height: '4.5%'
               },
               model: '',
-              solution: '7'
+              solution: '7',
+              validation: {
+                shown: false,
+                pre: 'pg12ex2turtlepre',
+                post: 'pg12ex2turtlepost',
+                position: {
+                  top: '12%',
+                  left: '9%',
+                  width: '81%'
+                }
+              }
             },
             {
               identifier: 'six',
@@ -520,7 +620,17 @@ module.exports = function() {
                 height: '4.5%'
               },
               model: '',
-              solution: '4'
+              solution: '4',
+              validation: {
+                shown: false,
+                pre: 'pg12ex2dogpre',
+                post: 'pg12ex2dogpost',
+                position: {
+                  top: '12%',
+                  left: '9%',
+                  width: '81%'
+                }
+              }
             },
             {
               identifier: 'seven',
@@ -531,7 +641,17 @@ module.exports = function() {
                 height: '4.5%'
               },
               model: '',
-              solution: '10'
+              solution: '10',
+              validation: {
+                shown: false,
+                pre: 'pg12ex2birdpre',
+                post: 'pg12ex2birdpost',
+                position: {
+                  top: '12%',
+                  left: '9%',
+                  width: '81%'
+                }
+              }
             }
           ]
         }
