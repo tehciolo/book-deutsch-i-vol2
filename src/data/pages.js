@@ -904,7 +904,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'COLOREAZA COLACUL FOLOSIND CULOARILE INDICATE. Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'COLOREAZA COLACUL FOLOSIND CULORILE INDICATE. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
